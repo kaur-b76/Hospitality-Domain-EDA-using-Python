@@ -89,5 +89,29 @@ Jupyter Notebook
 # Dataset Architecture
 This project uses a star-schema style structure.
 
+# Analysis Performed
 
+The project analyzed 134,590 hotel booking records across properties, room types, booking platforms, and time periods to identify revenue patterns, occupancy behavior, and operational inefficiencies.
+
+Datasets used:
+92 date records
+25 hotels
+4 room categories
+134k transactional bookings
+9,200 aggregated occupancy records
+incremental August dataset for validation
+
+# Techniques & Functions Used
+## Data cleaning
+isnull() → missing values detection
+drop_duplicates() → duplicate removal
+astype() → date and type conversions
+anomaly filtering for negative guests & revenue outliers
+
+
+# Exploratory analysis
+groupby() → revenue, bookings, occupancy segmentation
+value_counts() → platform and category distributions
+describe() → statistical summaries
+merge() → join fact and dimension tables
 
