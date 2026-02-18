@@ -25,23 +25,6 @@ dim_date – date, month, week, weekday/weekend classification for trend analysi
 dim_hotels – hotel details including city and category (Luxury/Business)
 dim_rooms – room categories and classifications
 
-# Fact tables
-
-fact_bookings – transactional booking data including booking status, guests, platform, revenue generated and realized
-fact_aggregated_bookings – aggregated occupancy and capacity data for operational analysis
-
-# Tools & Technologies
-
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-
-Jupyter Notebook
-# Dataset Architecture
-This project uses a star-schema style structure.
-
 Dimension tables 
 
 dim_date (92 rows, 4 columns)
@@ -63,6 +46,11 @@ Fields:
 room_id
 room_class (Standard, Elite, Premium, etc.)
 
+# Fact tables
+
+fact_bookings – transactional booking data including booking status, guests, platform, revenue generated and realized
+fact_aggregated_bookings – aggregated occupancy and capacity data for operational analysis
+
 Fact tables (transaction data)
 fact_bookings (134,590 rows, 12 columns)
 
@@ -80,6 +68,7 @@ booking_status
 revenue_generated
 revenue_realized
 
+
 fact_aggregated_bookings (9,200 rows, 5 columns)
 Fields:
 property_id
@@ -87,5 +76,18 @@ check_in_date
 room_category
 successful_bookings
 capacity
+
+# Tools & Technologies
+
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+
+Jupyter Notebook
+# Dataset Architecture
+This project uses a star-schema style structure.
+
 
 
