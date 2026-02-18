@@ -21,9 +21,9 @@ The project uses a star-schema style dataset with dimension and fact tables.
 
 # Dimension tables
 
-dim_date – date, month, week, weekday/weekend classification for trend analysis
-dim_hotels – hotel details including city and category (Luxury/Business)
-dim_rooms – room categories and classifications
+- dim_date – date, month, week, weekday/weekend classification for trend analysis
+- dim_hotels – hotel details including city and category (Luxury/Business)
+- dim_rooms – room categories and classifications
 
 Dimension tables 
 
@@ -48,8 +48,8 @@ Fields:
 
 # Fact tables
 
-fact_bookings – transactional booking data including booking status, guests, platform, revenue generated and realized
-fact_aggregated_bookings – aggregated occupancy and capacity data for operational analysis
+- fact_bookings – transactional booking data including booking status, guests, platform, revenue generated and realized
+- fact_aggregated_bookings – aggregated occupancy and capacity data for operational analysis
 
 Fact tables (transaction data)
 fact_bookings (134,590 rows, 12 columns)
