@@ -103,10 +103,10 @@ incremental August dataset for validation
 
 # Techniques & Functions Used
 ## Data cleaning
-isnull() → missing values detection
-drop_duplicates() → duplicate removal
-astype() → date and type conversions
-anomaly filtering for negative guests & revenue outliers
+- isnull() → missing values detection
+- drop_duplicates() → duplicate removal
+- astype() → date and type conversions
+- anomaly filtering for negative guests & revenue outliers
 
 
 # Exploratory analysis
