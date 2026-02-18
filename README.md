@@ -29,22 +29,22 @@ Dimension tables
 
 dim_date (92 rows, 4 columns)
 Fields:
-date
-month-year
-week number
-day type (weekday/weekend)
+- date
+- month-year
+- week number
+- day type (weekday/weekend)
 
 dim_hotels (25 rows, 4 columns)
 Fields:
-property_id
-property_name
-category (Luxury / Business)
-city
+- property_id
+- property_name
+- category (Luxury / Business)
+- city
 
 dim_rooms (4 rows, 2 columns)
 Fields:
-room_id
-room_class (Standard, Elite, Premium, etc.)
+- room_id
+- room_class (Standard, Elite, Premium, etc.)
 
 # Fact tables
 
@@ -55,35 +55,35 @@ Fact tables (transaction data)
 fact_bookings (134,590 rows, 12 columns)
 
 Fields include:
-booking_id
-property_id
-booking_date
-check_in_date
-checkout_date
-number_of_guests
-room_category
-booking_platform
-ratings_given
-booking_status
-revenue_generated
-revenue_realized
+- booking_id
+- property_id
+- booking_date
+- check_in_date
+- checkout_date
+- number_of_guests
+- room_category
+- booking_platform
+- ratings_given
+- booking_status
+- revenue_generated
+- revenue_realized
 
 
 fact_aggregated_bookings (9,200 rows, 5 columns)
 Fields:
-property_id
-check_in_date
-room_category
-successful_bookings
-capacity
+- property_id
+- check_in_date
+- room_category
+- successful_bookings
+- capacity
 
 # Tools & Technologies
 
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
 Jupyter Notebook
 # Dataset Architecture
@@ -94,12 +94,12 @@ This project uses a star-schema style structure.
 The project analyzed 134,590 hotel booking records across properties, room types, booking platforms, and time periods to identify revenue patterns, occupancy behavior, and operational inefficiencies.
 
 Datasets used:
-92 date records
-25 hotels
-4 room categories
-134k transactional bookings
-9,200 aggregated occupancy records
-incremental August dataset for validation
+- 92 date records
+- 25 hotels
+- 4 room categories
+- 134k transactional bookings
+- 9,200 aggregated occupancy records
+- incremental August dataset for validation
 
 # Techniques & Functions Used
 ## Data cleaning
@@ -110,8 +110,8 @@ incremental August dataset for validation
 
 
 # Exploratory analysis
-groupby() → revenue, bookings, occupancy segmentation
-value_counts() → platform and category distributions
-describe() → statistical summaries
-merge() → join fact and dimension tables
+- groupby() → revenue, bookings, occupancy segmentation
+- value_counts() → platform and category distributions
+- describe() → statistical summaries
+- merge() → join fact and dimension tables
 
