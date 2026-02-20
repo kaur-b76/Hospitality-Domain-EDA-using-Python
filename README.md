@@ -33,6 +33,7 @@ Fields:
 - month-year
 - week number
 - day type (weekday/weekend)
+  ![Date Data](date.png)
 
 dim_hotels (25 rows, 4 columns)
 Fields:
@@ -40,11 +41,13 @@ Fields:
 - property_name
 - category (Luxury / Business)
 - city
-
+  ![Hotels Data](hotels.png)
+  
 dim_rooms (4 rows, 2 columns)
 Fields:
 - room_id
 - room_class (Standard, Elite, Premium, etc.)
+  ![Rooms Data](rooms.png)
 
 # Fact tables
 
