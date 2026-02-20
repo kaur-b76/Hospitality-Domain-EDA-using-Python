@@ -111,6 +111,7 @@ Datasets used:
 
 ## Exploratory analysis
 - groupby() → revenue, bookings, occupancy segmentation
+  ![Group By Data](GROUPBY.png)
 - value_counts() → platform and category distributions
 - describe() → statistical summaries
   ![Description of Booking Data](describe.png)
