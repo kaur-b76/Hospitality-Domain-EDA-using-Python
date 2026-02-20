@@ -188,6 +188,7 @@ Implication:
 
 Average occupancy rate:
 58.4%
+![Occ Rate Data](Gavg_occ_rate.png)
 
 Meaning:
 - nearly 40% inventory underutilized
