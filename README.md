@@ -70,7 +70,7 @@ Fields include:
 - booking_status
 - revenue_generated
 - revenue_realized
-
+   ![Bookings Data](Bookings.png)
 
 fact_aggregated_bookings (9,200 rows, 5 columns)
 Fields:
@@ -79,6 +79,7 @@ Fields:
 - room_category
 - successful_bookings
 - capacity
+  ![Agg Bookings Data](agg_bookings.png)
 
 # Tools & Technologies
 
@@ -140,6 +141,7 @@ mean(ratings_given)
 
 - distribution plots
 - bar charts for platform & room demand
+   ![Platform](Platform.png)
 - occupancy trends over time
 - revenue segmentation by category
 
@@ -214,6 +216,7 @@ Top booking channels:
 - logtrip	14,756
 - direct online	13,379
 - tripster	9,630
+  ![Platoform Data](Bookingplatform.png)
 
 Insights:
 
