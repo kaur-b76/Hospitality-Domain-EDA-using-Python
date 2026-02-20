@@ -113,7 +113,7 @@ Datasets used:
 - groupby() → revenue, bookings, occupancy segmentation
 - value_counts() → platform and category distributions
 - describe() → statistical summaries
-  ![Description of Booking Data ](visuals/Screenshot 2026-02-19 at 21.44.47.png)
+- ![Description of Booking Data ](visuals/Screenshot 2026-02-19 at 21.44.47.png)
 - merge() → join fact and dimension tables
 
 ## Business metrics calculated
