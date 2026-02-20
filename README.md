@@ -150,8 +150,10 @@ mean(ratings_given)
 1) Booking scale
 
 - Total bookings analyzed: 134,590
+   ![Total Bookings Data](total_bookings.png)
 - Hotels analyzed: 25
 - Room categories: 4
+  ![Rooms Data](room_category.png)
 
 This reflects a mid-size hotel chain operational dataset.
 
