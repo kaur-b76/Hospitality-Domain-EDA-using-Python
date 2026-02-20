@@ -113,13 +113,16 @@ Datasets used:
 - groupby() → revenue, bookings, occupancy segmentation
   ![Group By Data](GROUPBY.png)
 - value_counts() → platform and category distributions
+  ![Value Count Data](valuecounts.png)
 - describe() → statistical summaries
   ![Description of Booking Data](describe.png)
 - merge() → join fact and dimension tables
+  ![Merge Data](merge.png)
 
 ## Business metrics calculated
 Occupancy rate 
 occupancy = successful_bookings / capacity
+  ![Occupancy Rate](Occ_PCT.png)
 
 Revenue leakage
 revenue_leakage = (revenue_generated − revenue_realized) / revenue_generated
